@@ -1,5 +1,4 @@
 //https://leetcode.com/problems/arithmetic-subarrays
-
 /**
  * @param {number[]} arr
  * @return {boolean}
