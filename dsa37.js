@@ -33,7 +33,7 @@ const checkArithmeticSubarrays = (nums, l, r) => {
 };
 
 const n = [4, 6, 5, 9, 3, 7];
-const L = [0, 0, 2];
-const R = [2, 3, 5];
+const L = [0, 1, 2];
+const R = [2, 5, 5];
 
 console.log(checkArithmeticSubarrays(n, L, R));
