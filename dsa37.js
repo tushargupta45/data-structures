@@ -25,7 +25,6 @@ const checkArithmeticSubarrays = (nums, l, r) => {
   const result = [];
   for (let i = 0; i < l.length; i++) {
     let numsCopy = [...nums];
-
     numsCopy = numsCopy.splice(l[i], r[i] - l[i] + 1);
     result.push(checkIfArithmetic(numsCopy));
   }
