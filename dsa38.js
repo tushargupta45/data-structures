@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number}
  */
-var partitionArray = function (nums, k) {
+const partitionArray = function (nums, k) {
   let dataIndexArr = [];
   nums.forEach((num, i) => dataIndexArr.push([num, i]));
   dataIndexArr.sort((a, b) => a[0] - b[0]);
