@@ -11,3 +11,5 @@ var arrangeCoins = function (n) {
   }
   return count - 1;
 };
+
+console.log(arrangeCoins(6));
