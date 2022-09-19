@@ -1,3 +1,9 @@
+//https://leetcode.com/problems/arranging-coins/
+
+/**
+ * @param {number} n
+ * @return {number}
+ */
 var arrangeCoins = function (n) {
   if (n == 1) {
     return 1;
