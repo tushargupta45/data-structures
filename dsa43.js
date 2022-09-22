@@ -8,6 +8,7 @@ const arrangeCoins = (n) => {
   if (n == 1) {
     return 1;
   }
+
   let count = 1;
   let sum = 0;
 
