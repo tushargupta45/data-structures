@@ -4,7 +4,7 @@
  * @param {number} n
  * @return {number}
  */
-const arrangeCoins = function (n) {
+const arrangeCoins = (n) => {
   if (n == 1) {
     return 1;
   }
