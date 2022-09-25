@@ -16,6 +16,7 @@ const arrangeCoins = (n) => {
     sum += count;
     count++;
   }
+
   return count - 1;
 };
 
