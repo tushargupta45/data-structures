@@ -9,6 +9,7 @@ const search = (nums, target) => {
   let l = 0;
   let r = nums.length - 1;
   let mid;
+
   while (l <= r) {
     mid = l + Math.floor((r - l) / 2);
     if (nums[mid] === target) {
