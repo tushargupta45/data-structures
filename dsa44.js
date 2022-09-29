@@ -5,7 +5,7 @@
  * @param {number} target
  * @return {number}
  */
-const search = function (nums, target) {
+const search = (nums, target) => {
   let l = 0;
   let r = nums.length - 1;
   let mid;
