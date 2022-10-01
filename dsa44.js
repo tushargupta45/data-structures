@@ -7,6 +7,7 @@
  */
 const search = (nums, target) => {
   let l = 0;
+
   let r = nums.length - 1;
   let mid;
 
