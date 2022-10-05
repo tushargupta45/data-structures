@@ -1,3 +1,7 @@
+/**
+ * @param {function} isBadVersion()
+ * @return {function}
+ */
 var solution = function (isBadVersion) {
   /**
    * @param {integer} n Total versions
