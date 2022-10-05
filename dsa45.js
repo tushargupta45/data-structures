@@ -1,4 +1,8 @@
 var solution = function (isBadVersion) {
+  /**
+   * @param {integer} n Total versions
+   * @return {integer} The first bad version
+   */
   return function (n) {
     if (n === 1 || isBadVersion(1)) {
       return 1;
