@@ -10,6 +10,5 @@ const diagonalSort = (mat) => {
   if (m === 1) {
     return mat;
   }
-
   for (let i = 0; i < m + n - 1; i++) {}
 };
