@@ -23,6 +23,7 @@ const solution = (isBadVersion) => {
     }
     let left = 1;
     let right = n;
+
     while (left < right) {
       let mid = left + Math.floor((right - left) / 2);
       if (isBadVersion(mid) && isBadVersion(mid + 1)) {
