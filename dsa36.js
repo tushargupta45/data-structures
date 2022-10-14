@@ -4,7 +4,7 @@
  * @param {number[][]} mat
  * @return {number[][]}
  */
-var diagonalSort = function (mat) {
+const diagonalSort = function (mat) {
   const m = mat.length;
   const n = mat[0].length;
   if (m === 1) {
