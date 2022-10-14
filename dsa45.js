@@ -34,6 +34,7 @@ const solution = (isBadVersion) => {
         return mid + 1;
       }
     }
+
     if (right === left) {
       return left + 1;
     } else return left;
