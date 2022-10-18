@@ -11,6 +11,7 @@ const diagonalSort = (matrix) => {
   if (m === 1) {
     return matrix;
   }
+
   for (let i = 0; i < m + n - 1; i++) {
     //add code here
   }
