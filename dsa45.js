@@ -21,6 +21,7 @@ const solution = (isBadVersion) => {
     if (n === 1 || isBadVersion(1)) {
       return 1;
     }
+
     let left = 1;
     let right = n;
 
