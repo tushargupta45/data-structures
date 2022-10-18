@@ -1,14 +1,14 @@
 //https://leetcode.com/problems/sort-the-matrix-diagonally/
 
 /**
- * @param {number[][]} mat
+ * @param {number[][]} matrix
  * @return {number[][]}
  */
-const diagonalSort = (mat) => {
-  const m = mat.length;
-  const n = mat[0].length;
+const diagonalSort = (matrix) => {
+  const m = matrix.length;
+  const n = matrix[0].length;
   if (m === 1) {
-    return mat;
+    return matrix;
   }
   for (let i = 0; i < m + n - 1; i++) {
     //add code here
