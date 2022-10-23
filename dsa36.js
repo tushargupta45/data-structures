@@ -5,7 +5,6 @@
  */
 const diagonalSort = (matrix) => {
   const m = matrix.length;
-
   const n = matrix[0].length;
   if (m === 1) {
     return matrix;
