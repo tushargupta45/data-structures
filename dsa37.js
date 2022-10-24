@@ -18,3 +18,9 @@ var checkArithmeticSubarrays = function (nums, l, r) {
   }
   return result;
 };
+
+const n = [4, 6, 5, 9, 3, 7];
+const L = [0, 0, 2];
+const R = [2, 3, 5];
+
+console.log(checkArithmeticSubarrays(n, L, R));
