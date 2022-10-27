@@ -9,6 +9,12 @@ const checkIfArithmetic = (arr) => {
   return true;
 };
 
+/**
+ * @param {number[]} nums
+ * @param {number[]} l
+ * @param {number[]} r
+ * @return {boolean[]}
+ */
 var checkArithmeticSubarrays = function (nums, l, r) {
   const result = [];
   for (let i = 0; i < l.length; i++) {
