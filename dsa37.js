@@ -21,7 +21,7 @@ const checkIfArithmetic = (arr) => {
  * @param {number[]} r
  * @return {boolean[]}
  */
-const checkArithmeticSubarrays = function (nums, l, r) {
+const checkArithmeticSubarrays = (nums, l, r) => {
   const result = [];
   for (let i = 0; i < l.length; i++) {
     let numsCopy = [...nums];
