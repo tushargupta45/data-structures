@@ -7,6 +7,7 @@ const partitionArray = (nums, k) => {
   let dataIndexArr = [];
   nums.forEach((num, i) => dataIndexArr.push([num, i]));
   dataIndexArr.sort((a, b) => a[0] - b[0]);
+
   let subSeqIndex = 0;
 
   let result = [];
