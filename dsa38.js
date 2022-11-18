@@ -15,6 +15,5 @@ const partitionArray = (nums, k) => {
     }
   }
 };
-
 const n = [3, 6, 1, 2, 5];
 console.log(partitionArray(n, 2));
