@@ -12,5 +12,4 @@ const buildArray = function (nums) {
   return nums.map((el) => nums[el]);
 };
 const a = [0, 2, 1, 5, 3, 4];
-//call function
 console.log(buildArray(a));
