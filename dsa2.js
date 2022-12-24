@@ -1,4 +1,4 @@
-var kidsWithCandies = function (candies, extraCandies) {
+const kidsWithCandies = function (candies, extraCandies) {
   const maxCandies = Math.max(...candies);
   const output = [];
   candies.forEach((candy, index) => {
