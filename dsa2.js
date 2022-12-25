@@ -14,5 +14,4 @@ const kidsWithCandies = function (candies, extraCandies) {
 };
 
 const c = [2, 3, 5, 1, 3];
-//call function
 console.log(kidsWithCandies(c, 3));
