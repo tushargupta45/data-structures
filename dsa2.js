@@ -2,15 +2,15 @@
 
 const kidsWithCandies = (candies, extraCandies) => {
   const maxCandies = Math.max(...candies);
-  const output = [];
+  const outputArr = [];
   candies.forEach((candy, index) => {
     if (candy + extraCandies >= maxCandies) {
-      output[index] = true;
+      outputArr[index] = true;
     } else {
-      output[index] = false;
+      outputArr[index] = false;
     }
   });
-  return output;
+  return outputArr;
 };
 
 const c = [2, 3, 5, 1, 3];
