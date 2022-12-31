@@ -14,6 +14,6 @@ const kidsWithCandies = (candies, extraCandies) => {
   return outputArr;
 };
 
-const c = [2, 3, 9, 1, 3];
+const c = [2, 3, 9, 1, 3, 4, 2, 1, 4, 9];
 
 console.log(kidsWithCandies(c, 9));
