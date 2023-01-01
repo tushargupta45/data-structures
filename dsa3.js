@@ -8,4 +8,5 @@ const sumOddLengthSubarrays = (arr) => {
   return result;
 };
 const a = [10, 11, 12];
+
 console.log(sumOddLengthSubarrays(a));
