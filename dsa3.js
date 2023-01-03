@@ -9,5 +9,5 @@ const sumOddLengthSubarrays = (arr) => {
   return result;
 };
 
-const a = [10, 11, 12, 22, 4, 5, 3];
+const a = [10, 11, 12, 22, 4, 5, 3, 5, 3];
 console.log(sumOddLengthSubarrays(a));
