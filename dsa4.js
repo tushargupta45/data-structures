@@ -1,4 +1,4 @@
-var flipAndInvertImage = function (image) {
+const flipAndInvertImage = function (image) {
   let error = false;
   const n = image.length;
   const invert = (num) => {
