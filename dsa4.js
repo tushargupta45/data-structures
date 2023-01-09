@@ -27,9 +27,9 @@ const flipAndInvertImage = (img) => {
   }
 };
 
-const i = [
+const imgInput = [
   [1, 1, 0],
   [1, 0, 1],
   [0, 0, 0],
 ];
-console.log(flipAndInvertImage(i));
+console.log(flipAndInvertImage(imgInput));
