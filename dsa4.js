@@ -32,4 +32,5 @@ const imgInput = [
   [1, 0, 1],
   [0, 0, 0],
 ];
+
 console.log(flipAndInvertImage(imgInput));
