@@ -3,7 +3,7 @@
 const flipAndInvertImage = (img) => {
   let error = false;
   const n = img.length;
-  const invert = (num) => {
+  const invertImg = (num) => {
     if (num === 0) {
       return 1;
     } else if (num === 1) {
@@ -17,7 +17,7 @@ const flipAndInvertImage = (img) => {
       error = true;
       return;
     }
-    row = row.map((col) => invert(col));
+    row = row.map((col) => invertImg(col));
     return row.reverse();
   });
   if (error) {
