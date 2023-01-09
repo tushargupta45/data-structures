@@ -1,8 +1,8 @@
 //https://leetcode.com/problems/flipping-an-image/
 
-const flipAndInvertImage = (img) => {
+const flipAndInvertImage = (image) => {
   let error = false;
-  const n = img.length;
+  const n = image.length;
   const invertImg = (num) => {
     if (num === 0) {
       return 1;
@@ -12,7 +12,7 @@ const flipAndInvertImage = (img) => {
       error = true;
     }
   };
-  img = img.map((row) => {
+  image = image.map((row) => {
     if (row.length !== n) {
       error = true;
       return;
@@ -23,7 +23,7 @@ const flipAndInvertImage = (img) => {
   if (error) {
     return -1;
   } else {
-    return img;
+    return image;
   }
 };
 
