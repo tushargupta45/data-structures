@@ -1,5 +1,3 @@
-//https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
-
 var firstPalindrome = function (words) {
   if (words.length > 100 || words.length < 1) {
     return "";
