@@ -4,15 +4,15 @@ const firstPalindrome = (words) => {
   if (words.length > 100 || words.length < 1) {
     return "";
   }
-  const palindrome = words.find((word) => {
+  const palindromeStr = words.find((word) => {
     if (word.length > 100 || word.length < 1) {
       return "";
     }
     return word === word.split("").reverse().join("");
   });
 
-  if (palindrome) {
-    return palindrome;
+  if (palindromeStr) {
+    return palindromeStr;
   }
   return "";
 };
