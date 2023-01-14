@@ -10,6 +10,7 @@ const firstPalindrome = (words) => {
     }
     return word === word.split("").reverse().join("");
   });
+
   if (palindrome) {
     return palindrome;
   }
