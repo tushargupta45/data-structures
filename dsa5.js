@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
 
-const firstPalindrome = (words) => {
+const getFirstPalindrome = (words) => {
   if (words.length > 100 || words.length < 1) {
     return "";
   }
@@ -18,4 +18,4 @@ const firstPalindrome = (words) => {
 };
 
 const a = ["abc", "car", "racecar", "cool"];
-console.log(firstPalindrome(a));
+console.log(getFirstPalindrome(a));
