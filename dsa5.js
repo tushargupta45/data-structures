@@ -1,10 +1,10 @@
 //https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
 
-const getFirstPalindrome = (words) => {
-  if (words.length > 100 || words.length < 1) {
+const getFirstPalindrome = (wordsArr) => {
+  if (wordsArr.length > 100 || wordsArr.length < 1) {
     return "";
   }
-  const palindromeStr = words.find((word) => {
+  const palindromeStr = wordsArr.find((word) => {
     if (word.length > 100 || word.length < 1) {
       return "";
     }
