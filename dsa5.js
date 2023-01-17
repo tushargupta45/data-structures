@@ -17,5 +17,5 @@ const getFirstPalindrome = (wordsArr) => {
   return "";
 };
 
-const a = ["abc", "car", "racecar", "cool", "aaaa"];
+const a = ["abc", "car", "racecar", "cool", "aaaa", "racecar", "cool", "aaaa"];
 console.log(getFirstPalindrome(a));
