@@ -4,13 +4,13 @@ const getFirstPalindrome = (wordsArr) => {
   if (wordsArr.length > 100 || wordsArr.length < 1) {
     return "";
   }
+
   const palindromeStr = wordsArr.find((word) => {
     if (word.length > 100 || word.length < 1) {
       return "";
     }
     return word === word.split("").reverse().join("");
   });
-
   if (palindromeStr) {
     return palindromeStr;
   }
