@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/counting-words-with-a-given-prefix/
 
-const prefixCount = function (words, pref) {
+const prefixCount = (words, pref) => {
   if (pref.length > 100 || words.length > 100 || words.length < 1) {
     return 0;
   }
