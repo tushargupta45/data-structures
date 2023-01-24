@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/maximum-number-of-pairs-in-array
 
-var numberOfPairs = function (nums) {
+const numberOfPairs = function (nums) {
   let pairCount = 0;
   let i = 0;
   nums = nums.sort((a, b) => a - b);
