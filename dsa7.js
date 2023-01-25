@@ -15,4 +15,5 @@ const numberOfPairs = (nums) => {
   }
   return [pairCount, nums.length - 2 * pairCount];
 };
+
 console.log(numberOfPairs([1, 3, 2, 1, 3, 2, 2, 5, 3, 4]));
