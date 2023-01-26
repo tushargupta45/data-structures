@@ -3,6 +3,7 @@
 const numberOfPairs = (nums) => {
   let pairCount = 0;
   let i = 0;
+
   nums = nums.sort((a, b) => a - b);
   while (i < nums.length - 1) {
     if (nums[i] === nums[i + 1]) {
