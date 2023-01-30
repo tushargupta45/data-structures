@@ -17,5 +17,4 @@ const heightChecker = (heights) => {
   });
   return unmatchedIndices;
 };
-
 console.log(heightChecker([1, 1, 4, 2, 1, 3]));
