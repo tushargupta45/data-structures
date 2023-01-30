@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/height-checker/
 
-const heightChecker = function (heights) {
+const heightChecker = (heights) => {
   if (heights.length > 100 || heights.length < 1) {
     return 0;
   }
