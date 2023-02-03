@@ -1,19 +1,19 @@
 //https://leetcode.com/problems/height-checker/
 
-const checkHeight = (heights) => {
-  if (heights.length > 100 || heights.length < 1) {
+const checkHeight = (heightsArr) => {
+  if (heightsArr.length > 100 || heightsArr.length < 1) {
     return 0;
   }
-  const initialHeights = [...heights];
+  const initialHeights = [...heightsArr];
   let unmatchedIndices = 0;
 
-  heights.sort((a, b) => a - b);
+  heightsArr.sort((a, b) => a - b);
 
   initialHeights.forEach((el, i) => {
     if (el > 100 || el < 1) {
       unmatchedIndices = 0;
       return;
-    } else if (el !== heights[i]) {
+    } else if (el !== heightsArr[i]) {
       unmatchedIndices++;
     }
   });
