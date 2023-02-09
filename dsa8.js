@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/height-checker/
 
-const checkHeight = (heightsArr) => {
+const heightChecker = (heightsArr) => {
   if (heightsArr.length > 100 || heightsArr.length < 1) {
     return 0;
   }
@@ -21,4 +21,4 @@ const checkHeight = (heightsArr) => {
   return unmatchedIndices;
 };
 
-console.log(checkHeight([1, 1, 4, 2, 1, 3]));
+console.log(heightChecker([1, 1, 4, 2, 1, 3]));
