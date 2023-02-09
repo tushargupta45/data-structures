@@ -7,6 +7,7 @@ const heightChecker = (heightsArr) => {
   const initialHeights = [...heightsArr];
   let unmatchedIndices = 0;
   heightsArr.sort((a, b) => a - b);
+
   initialHeights.forEach((el, i) => {
     if (el > 100 || el < 1) {
       unmatchedIndices = 0;
