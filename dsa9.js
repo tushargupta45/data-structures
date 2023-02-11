@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/
+
 const getSum = (arr) => {
   return arr.reduce((a, b) => a + b, 0);
 };
