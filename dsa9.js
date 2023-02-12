@@ -15,6 +15,7 @@ const getSmallestNonZero = (arr) => {
 
 const minimumOperations = (nums) => {
   let operations = 0;
+
   while (nums.reduce((a, b) => a + b, 0)) {
     const smallest = getSmallestNonZero(nums);
     nums = nums.map((el) => {
@@ -26,6 +27,7 @@ const minimumOperations = (nums) => {
     });
     operations++;
   }
+
   return operations;
 };
 
