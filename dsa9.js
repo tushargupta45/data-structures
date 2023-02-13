@@ -13,7 +13,7 @@ const getSmallestNonZero = (arr) => {
   return arr[index];
 };
 
-const minimumOperations = (nums) => {
+const getMinimumOperations = (nums) => {
   let operations = 0;
 
   while (nums.reduce((a, b) => a + b, 0)) {
@@ -31,4 +31,4 @@ const minimumOperations = (nums) => {
   return operations;
 };
 
-console.log(minimumOperations([1, 5, 0, 3, 5]));
+console.log(getMinimumOperations([1, 5, 0, 3, 5]));
