@@ -6,6 +6,7 @@ const getSum = (arr) => {
 
 const getSmallestNonZero = (arr) => {
   arr.sort((a, b) => a - b);
+
   let index = 0;
   while (arr[index] === 0) {
     index++;
@@ -15,7 +16,6 @@ const getSmallestNonZero = (arr) => {
 
 const getMinimumOperations = (nums) => {
   let operations = 0;
-
   while (nums.reduce((a, b) => a + b, 0)) {
     const smallest = getSmallestNonZero(nums);
     nums = nums.map((el) => {
@@ -27,7 +27,6 @@ const getMinimumOperations = (nums) => {
     });
     operations++;
   }
-
   return operations;
 };
 
