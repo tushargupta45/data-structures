@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/
 
-var maximumValue = function (strs) {
+const maximumValue = function (strs) {
   let high = 0;
   strs.forEach((el) => {
     if (isNaN(Number(el))) {
