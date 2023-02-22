@@ -12,5 +12,5 @@ const getMaxValue = (strs) => {
   return high;
 };
 
-const strs = ["alic3", "bob", "3", "4", "00000"];
+const strs = ["alic3", "bob", "3", "4", "00000", "99", "aa"];
 console.log(getMaxValue(strs));
