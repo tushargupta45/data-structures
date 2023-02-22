@@ -2,6 +2,7 @@
 
 const maximumValue = function (strs) {
   let high = 0;
+
   strs.forEach((el) => {
     if (isNaN(Number(el))) {
       high = Math.max(high, el.length);
@@ -9,6 +10,7 @@ const maximumValue = function (strs) {
       high = Math.max(high, parseInt(el));
     }
   });
+
   return high;
 };
 
