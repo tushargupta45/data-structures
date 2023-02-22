@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/
 
-const getMaxValue = function (strs) {
+const getMaxValue = (strs) => {
   let high = 0;
 
   strs.forEach((el) => {
