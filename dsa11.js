@@ -2,6 +2,7 @@
 
 const allCellsDistOrder = (rows, cols, rCenter, cCenter) => {
   const matrix = [];
+
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {
       const distance = Math.abs(rCenter - i) + Math.abs(cCenter - j);
@@ -9,7 +10,6 @@ const allCellsDistOrder = (rows, cols, rCenter, cCenter) => {
     }
   }
   matrix.sort((a, b) => a[2] - b[2]);
-
   return matrix.map((row) => [row[0], row[1]]);
 };
 
