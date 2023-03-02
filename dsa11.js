@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/matrix-cells-in-distance-order
 
-const allCellsDistOrder = function (rows, cols, rCenter, cCenter) {
+const allCellsDistOrder = (rows, cols, rCenter, cCenter) => {
   const matrix = [];
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {
