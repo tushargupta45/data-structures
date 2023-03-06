@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence
+
 var canMakeArithmeticProgression = function (arr) {
   const infinite = 10 ** 6;
   if (arr.length > 1000 || arr.length <= 1) {
