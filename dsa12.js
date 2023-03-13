@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence
 
-const canMakeArithmeticProgression = (arr) => {
+const canArrayMakeArithmeticProgression = (arr) => {
   const infinite = 10 ** 6;
   if (arr.length > 1000 || arr.length <= 1) {
     return false;
@@ -18,4 +18,4 @@ const canMakeArithmeticProgression = (arr) => {
   }
   return true;
 };
-console.log(canMakeArithmeticProgression([3, 5, 1]));
+console.log(canArrayMakeArithmeticProgression([3, 5, 1]));
