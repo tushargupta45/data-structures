@@ -5,7 +5,6 @@ const canArrayMakeArithmeticProgression = (numsArr) => {
   if (numsArr.length > 1000 || numsArr.length <= 1) {
     return false;
   }
-
   numsArr.sort((a, b) => a - b);
   const gap = numsArr[1] - numsArr[0];
   for (let i = 1; i < numsArr.length - 1; i++) {
@@ -18,4 +17,5 @@ const canArrayMakeArithmeticProgression = (numsArr) => {
   }
   return true;
 };
+
 console.log(canArrayMakeArithmeticProgression([3, 5, 1]));
