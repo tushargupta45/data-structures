@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/two-furthest-houses-with-different-colors/
+
 var maxDistance = function (colors) {
   let length = colors.length - 1;
   while (length > 0) {
