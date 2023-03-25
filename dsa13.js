@@ -12,6 +12,5 @@ const maxDistance = function (colors) {
   }
   return length;
 };
-
 const c = [1, 1, 1, 6, 1, 1, 1];
 console.log(maxDistance(c));
