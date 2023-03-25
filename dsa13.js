@@ -1,11 +1,11 @@
 //https://leetcode.com/problems/two-furthest-houses-with-different-colors/
 
-const maxDistance = (colors) => {
-  let length = colors.length - 1;
+const maxDistance = (colorsArr) => {
+  let length = colorsArr.length - 1;
 
   while (length > 0) {
-    for (let i = 0; i < colors.length - length; i++) {
-      if (colors[i] !== colors[i + length]) {
+    for (let i = 0; i < colorsArr.length - length; i++) {
+      if (colorsArr[i] !== colorsArr[i + length]) {
         return length;
       }
     }
