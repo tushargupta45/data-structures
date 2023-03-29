@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/last-stone-weight/
+
 var lastStoneWeight = function (stones) {
   stones.sort((a, b) => b - a);
   while (stones.length > 1) {
