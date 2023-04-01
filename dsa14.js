@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/last-stone-weight/
 
-const lastStoneWeight = function (stones) {
+const lastStoneWeight = (stones) => {
   stones.sort((a, b) => b - a);
   while (stones.length > 1) {
     const stone1 = stones.shift();
