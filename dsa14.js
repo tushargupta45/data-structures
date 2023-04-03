@@ -1,19 +1,19 @@
 //https://leetcode.com/problems/last-stone-weight/
 
-const lastStoneWeight = (stones) => {
-  stones.sort((a, b) => b - a);
+const lastStoneWeight = (stonesArr) => {
+  stonesArr.sort((a, b) => b - a);
 
-  while (stones.length > 1) {
-    const stone1 = stones.shift();
-    const stone2 = stones.shift();
+  while (stonesArr.length > 1) {
+    const stone1 = stonesArr.shift();
+    const stone2 = stonesArr.shift();
 
     if (stone1 - stone2) {
-      stones.push(Math.abs(stone1 - stone2));
-      stones.sort((a, b) => b - a);
+      stonesArr.push(Math.abs(stone1 - stone2));
+      stonesArr.sort((a, b) => b - a);
     }
   }
-  if (stones[0]) {
-    return stones[0];
+  if (stonesArr[0]) {
+    return stonesArr[0];
   } else {
     return 0;
   }
