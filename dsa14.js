@@ -19,5 +19,5 @@ const lastStoneWeight = (stonesArr) => {
   }
 };
 
-const arr = [2, 7, 4, 1, 8, 1, 5, 2, 4, 6, 3, 5];
+const arr = [2, 7, 5, 2, 4, 6, 3, 5];
 console.log(lastStoneWeight(arr));
