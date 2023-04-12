@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/find-the-original-array-of-prefix-xor/
 
-var findArray = function (pref) {
+const findArray = function (pref) {
   if (pref.length < 1 || pref.length > 10 ** 5) {
     return [];
   }
