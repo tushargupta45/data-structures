@@ -17,4 +17,5 @@ const findArray = (pref) => {
 };
 
 const a = [5, 2, 0, 3, 1];
+
 console.log(findArray(a));
