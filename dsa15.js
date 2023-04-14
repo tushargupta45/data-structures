@@ -15,5 +15,6 @@ const findArray = (prefArr) => {
   }
   return result;
 };
+
 const inputArr = [5, 2, 0, 3, 1];
 console.log(findArray(inputArr));
