@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/finding-the-users-active-minutes/
+
 var findingUsersActiveMinutes = function (logs, k) {
   logs.sort((a, b) => a[0] - b[0]);
 
