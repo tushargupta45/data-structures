@@ -13,7 +13,8 @@ const findingUsersActiveMinutes = (logs, k) => {
   for (let i = 0; i < k; i++) {
     result.push(0);
   }
-  id.forEach((val, key) => {
+
+  id.forEach((val) => {
     const set = new Set(val);
     result[set.size - 1]++;
   });
