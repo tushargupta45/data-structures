@@ -8,6 +8,7 @@ const findingUsersActiveMinutes = (logs, k) => {
     if (!id.has(logs[i][0])) {
       id.set(logs[i][0], []);
     }
+
     id.get(logs[i][0]).push(logs[i][1]);
   }
   const result = [];
