@@ -2,6 +2,7 @@
 
 const findingUsersActiveMinutes = (logs, k) => {
   logs.sort((a, b) => a[0] - b[0]);
+
   const id = new Map();
   for (let i = 0; i < logs.length; i++) {
     if (!id.has(logs[i][0])) {
