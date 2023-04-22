@@ -11,6 +11,7 @@ const findingUsersActiveMinutes = (logs, k) => {
     id.get(logs[i][0]).push(logs[i][1]);
   }
   const result = [];
+
   for (let i = 0; i < k; i++) {
     result.push(0);
   }
