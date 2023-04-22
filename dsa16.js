@@ -17,6 +17,7 @@ const findingUsersActiveMinutes = (logs, k) => {
 
   id.forEach((val) => {
     const set = new Set(val);
+
     result[set.size - 1]++;
   });
   return result;
@@ -34,4 +35,5 @@ const l = [
   [0, 5],
   [1, 3],
 ];
+
 console.log(findingUsersActiveMinutes(l, 5));
