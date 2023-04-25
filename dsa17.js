@@ -10,6 +10,7 @@ class CustomStack {
 }
 
 //x is number
+
 CustomStack.prototype.push = function (x) {
   if (this.stack.length < this.maxSize) {
     this.stack.push(x);
@@ -17,6 +18,7 @@ CustomStack.prototype.push = function (x) {
 };
 
 //return number
+
 CustomStack.prototype.pop = function () {
   if (this.stack.length) {
     return this.stack.pop();
@@ -36,8 +38,10 @@ CustomStack.prototype.increment = function (k, val) {
 /**
  * Your CustomStack object will be instantiated and called as such:
  * var obj = new CustomStack(maxSize)
+ *
  * obj.push(x)
  * var param_2 = obj.pop()
+ *
  * obj.increment(k,val)
  */
 
