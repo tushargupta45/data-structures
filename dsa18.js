@@ -20,9 +20,12 @@ const matrixBlockSum = (mat, k) => {
   ) {
     return [];
   }
+
   let result = [[]];
+
   for (let i = 0; i < mat.length; i++) {
     result.push([]);
+
     for (let j = 0; j < mat[0].length; j++) {
       if (mat[i][j] < 1 || mat[i][j] > 100) {
         return [];
@@ -31,6 +34,7 @@ const matrixBlockSum = (mat, k) => {
     }
   }
   result.pop();
+
   return result;
 };
 
