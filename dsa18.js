@@ -13,7 +13,7 @@ const calcSum = (i, j, k, mat) => {
   return sum;
 };
 
-var matrixBlockSum = function (mat, k) {
+const matrixBlockSum = function (mat, k) {
   if (
     Math.min(k, mat.length, mat[0].length) < 1 ||
     Math.max(k, mat.length, mat[0].length) > 100
