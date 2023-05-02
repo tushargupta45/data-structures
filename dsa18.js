@@ -3,6 +3,7 @@
 
 const calcSum = (i, j, k, mat) => {
   let sum = 0;
+
   for (let a = i - k; a <= i + k; a++) {
     for (let b = j - k; b <= j + k; b++) {
       if (mat[a] && mat[a][b]) {
@@ -10,6 +11,7 @@ const calcSum = (i, j, k, mat) => {
       }
     }
   }
+
   return sum;
 };
 
