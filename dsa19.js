@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/
+
 var displayTable = function (orders) {
   const result = [["Table"]];
   const a = [];
