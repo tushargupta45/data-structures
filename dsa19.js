@@ -3,8 +3,10 @@
 const displayTable = (orders) => {
   const result = [["Table"]];
   const a = [];
+
   const foodItems = orders.map((order) => order[2]);
   foodItems.sort();
+
   const uniqueFoodItems = new Set(foodItems);
   uniqueFoodItems.forEach((val) => {
     result[0].push(val);
