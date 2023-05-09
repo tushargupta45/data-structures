@@ -34,7 +34,7 @@ const displayTable = (orders) => {
   return result;
 };
 
-const o = [
+const data = [
   ["David", "3", "Ceviche"],
   ["Corina", "10", "Beef Burrito"],
   ["David", "3", "Fried Chicken"],
@@ -43,4 +43,4 @@ const o = [
   ["Rous", "3", "Ceviche"],
 ];
 
-console.log(displayTable(o));
+console.log(displayTable(data));
