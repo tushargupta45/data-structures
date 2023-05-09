@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/
 
-const displayTable = function (orders) {
+const displayTable = (orders) => {
   const result = [["Table"]];
   const a = [];
   const foodItems = orders.map((order) => order[2]);
