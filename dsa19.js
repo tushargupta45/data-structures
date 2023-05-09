@@ -37,7 +37,7 @@ const displayTable = (orders) => {
 const data = [
   ["David", "3", "Ceviche"],
   ["Corina", "10", "Beef Burrito"],
-  ["David", "3", "Fried Chicken"],
+  ["David", "5", "Fried Chicken"],
   ["Carla", "5", "Water"],
   ["Carla", "5", "Ceviche"],
   ["Rous", "3", "Ceviche"],
