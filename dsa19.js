@@ -12,8 +12,10 @@ const displayTable = (orders) => {
     result[0].push(val);
     a.push("0");
   });
+
   const tables = orders.map((order) => order[1]);
   tables.sort((a, b) => a - b);
+
   const uniqueTables = new Set(tables);
   uniqueTables.forEach((table) => {
     result.push([table, ...a]);
