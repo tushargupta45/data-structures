@@ -10,6 +10,7 @@ const displayTable = (orders) => {
   const uniqueFoodItems = new Set(foodItems);
   uniqueFoodItems.forEach((val) => {
     result[0].push(val);
+
     a.push("0");
   });
 
