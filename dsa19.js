@@ -17,8 +17,10 @@ const displayTable = (orders) => {
   tables.sort((a, b) => a - b);
 
   const uniqueTables = new Set(tables);
+
   uniqueTables.forEach((table) => {
     result.push([table, ...a]);
+
     for (let i = 1; i < result[0].length; i++) {
       for (let j = 0; j < orders.length; j++) {
         if (orders[j][1] === table && orders[j][2] === result[0][i]) {
