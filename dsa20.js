@@ -16,7 +16,7 @@ const alreadyVisited = (path, arr) => {
   return false;
 };
 
-const spiralMatrixIII = function (rows, cols, rStart, cStart) {
+const spiralMatrixIII = (rows, cols, rStart, cStart) => {
   // right: 0
   // bottom: 1
   // left: 2
