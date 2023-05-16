@@ -9,6 +9,7 @@ const rotate = (matrix) => {
     for (let j = i; j < l; j++) {
       swap = matrix[i][j];
       matrix[i][j] = matrix[j][i];
+
       matrix[j][i] = swap;
     }
   }
