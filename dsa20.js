@@ -51,8 +51,6 @@ const spiralMatrixIII = (rows, cols, rStart, cStart) => {
         row++;
         prevOperation = 1;
       } else if (col - 1 >= 0 && !alreadyVisited(path, [row, col - 1])) {
-        console.log([row, col - 1]);
-        console.log(path, i);
         path.push([row, col - 1]);
 
         col--;
