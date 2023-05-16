@@ -4,6 +4,7 @@ const rotate = (matrix) => {
   const l = matrix.length;
   matrix.reverse();
   let swap;
+
   for (let i = 0; i < l; i++) {
     for (let j = i; j < l; j++) {
       swap = matrix[i][j];
