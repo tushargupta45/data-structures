@@ -47,20 +47,24 @@ const spiralMatrixIII = (rows, cols, rStart, cStart) => {
     } else if (prevOperation === 0) {
       if (row + 1 <= rows - 1 && !alreadyVisited(path, [row + 1, col])) {
         path.push([row + 1, col]);
+
         row++;
         prevOperation = 1;
       } else if (col - 1 >= 0 && !alreadyVisited(path, [row, col - 1])) {
         console.log([row, col - 1]);
         console.log(path, i);
         path.push([row, col - 1]);
+
         col--;
         prevOperation = 2;
       } else if (row - 1 >= 0 && !alreadyVisited(path, [row - 1, col])) {
         path.push([row - 1, col]);
+
         row--;
         prevOperation = 3;
       } else if (col + 1 <= cols - 1 && !alreadyVisited(path, [row, col + 1])) {
         path.push([row, col + 1]);
+
         col++;
         prevOperation = 0;
       }
