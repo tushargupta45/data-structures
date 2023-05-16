@@ -17,10 +17,6 @@ const alreadyVisited = (path, arr) => {
 };
 
 const spiralMatrixIII = (rows, cols, rStart, cStart) => {
-  // right: 0
-  // bottom: 1
-  // left: 2
-  // up: 3
   const path = [[rStart, cStart]];
   let col = cStart;
   let row = rStart;
