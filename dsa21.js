@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/rotate-image/
 
-const rotate = function (matrix) {
+const rotate = (matrix) => {
   const l = matrix.length;
   matrix.reverse();
   let swap;
