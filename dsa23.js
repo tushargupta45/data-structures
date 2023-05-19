@@ -1,3 +1,9 @@
+//https://leetcode.com/problems/reducing-dishes
+
+/**
+ * @param {number[]} arr
+ * @return {number}
+ */
 const likeTimeCoefficient = (arr) => {
   let sum = 0;
   arr.forEach((val, index) => {
@@ -6,6 +12,10 @@ const likeTimeCoefficient = (arr) => {
   return sum;
 };
 
+/**
+ * @param {number[]} satisfaction
+ * @return {number}
+ */
 var maxSatisfaction = function (satisfaction) {
   if (satisfaction.length > 500 || satisfaction.length < 1) {
     return 0;
