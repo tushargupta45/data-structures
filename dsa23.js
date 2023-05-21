@@ -21,7 +21,9 @@ const maxSatisfaction = (satisfaction) => {
     return 0;
   }
   satisfaction.sort((a, b) => a - b);
+
   let result = likeTimeCoefficient(satisfaction);
+
   while (satisfaction[0] < 0) {
     result = Math.max(likeTimeCoefficient(satisfaction), result);
     satisfaction.shift();
