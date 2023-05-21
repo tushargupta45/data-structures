@@ -16,7 +16,7 @@ const likeTimeCoefficient = (arr) => {
  * @param {number[]} satisfaction
  * @return {number}
  */
-const maxSatisfaction = function (satisfaction) {
+const maxSatisfaction = (satisfaction) => {
   if (satisfaction.length > 500 || satisfaction.length < 1) {
     return 0;
   }
