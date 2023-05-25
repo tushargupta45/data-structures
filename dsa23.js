@@ -26,6 +26,7 @@ const maxSatisfaction = (satisfaction) => {
 
   while (satisfaction[0] < 0) {
     result = Math.max(likeTimeCoefficient(satisfaction), result);
+
     satisfaction.shift();
   }
   if (result < 0) {
