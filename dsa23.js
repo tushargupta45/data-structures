@@ -6,6 +6,7 @@
  */
 const likeTimeCoefficient = (arr) => {
   let sum = 0;
+
   arr.forEach((val, index) => {
     sum += val * (index + 1);
   });
