@@ -1,3 +1,8 @@
+/**
+ * @param {number[]} nums
+ * @param {number[]} target
+ * @return {number}
+ */
 var makeSimilar = function (nums, target) {
   const numsEven = [];
   const numsOdd = [];
@@ -30,3 +35,14 @@ var makeSimilar = function (nums, target) {
   }
   return result / 4;
 };
+
+const n = [
+  758, 334, 402, 1792, 1112, 1436, 1534, 1702, 1538, 1427, 720, 1424, 114, 1604,
+  564, 120, 578,
+];
+const t = [
+  1670, 216, 1392, 1828, 1104, 464, 678, 1134, 644, 1178, 1150, 1608, 1799,
+  1156, 244, 2, 892,
+];
+
+console.log(makeSimilar(n, t));
