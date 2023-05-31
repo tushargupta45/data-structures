@@ -3,7 +3,7 @@
  * @param {number[]} target
  * @return {number}
  */
-var makeSimilar = function (nums, target) {
+const makeSimilar = function (nums, target) {
   const numsEven = [];
   const numsOdd = [];
   nums.forEach((num) => {
