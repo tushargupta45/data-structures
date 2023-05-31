@@ -6,6 +6,7 @@
 const makeSimilar = (nums, target) => {
   const numsEven = [];
   const numsOdd = [];
+
   nums.forEach((num) => {
     if (num % 2 == 0) {
       numsEven.push(num);
