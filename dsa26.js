@@ -1,3 +1,9 @@
+//https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
+
+/**
+ * @param {number} num
+ * @return {number}
+ */
 var minimumSum = function (num) {
   if (1000 > num || num > 9999) {
     return 0;
