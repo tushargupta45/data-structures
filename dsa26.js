@@ -4,7 +4,7 @@
  * @param {number} num
  * @return {number}
  */
-const minimumSum = function (num) {
+const minimumSum = (num) => {
   if (1000 > num || num > 9999) {
     return 0;
   }
