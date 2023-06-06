@@ -9,8 +9,10 @@ const minimumSum = (num) => {
     return 0;
   }
   const arr = [];
+
   arr.push(Math.floor(num / 1000));
   arr.push(Math.floor(num / 100) % 10);
+
   arr.push(Math.floor(num / 10) % 10);
   arr.push(num % 10);
 
