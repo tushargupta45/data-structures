@@ -20,4 +20,4 @@ const minimumSum = (num) => {
   return arr[0] * 10 + arr[1] * 10 + arr[2] + arr[3];
 };
 
-console.log(minimumSum(2932));
+console.log(minimumSum(2343));
