@@ -1,3 +1,10 @@
+//https://leetcode.com/problems/merge-similar-items
+
+/**
+ * @param {number[][]} items1
+ * @param {number[][]} items2
+ * @return {number[][]}
+ */
 var mergeSimilarItems = function (items1, items2) {
   const result = [];
   const set = new Set();
@@ -15,3 +22,15 @@ var mergeSimilarItems = function (items1, items2) {
   });
   return result.sort((a, b) => a[0] - b[0]);
 };
+
+const i1 = [
+  [1, 1],
+  [4, 5],
+  [3, 8],
+];
+const i2 = [
+  [3, 1],
+  [1, 5],
+];
+
+console.log(mergeSimilarItems(i1, i2));
