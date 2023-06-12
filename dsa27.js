@@ -20,6 +20,7 @@ const mergeSimilarItems = (items1, items2) => {
         sum += item[1];
       }
     });
+
     result.push([val, sum]);
   });
   return result.sort((a, b) => a[0] - b[0]);
