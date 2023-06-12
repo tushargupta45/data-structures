@@ -5,7 +5,7 @@
  * @param {number[][]} items2
  * @return {number[][]}
  */
-const mergeSimilarItems = function (items1, items2) {
+const mergeSimilarItems = (items1, items2) => {
   const result = [];
   const set = new Set();
   items1.forEach((i) => set.add(i[0]));
