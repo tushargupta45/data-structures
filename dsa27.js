@@ -10,6 +10,7 @@ const mergeSimilarItems = (items1, items2) => {
   const set = new Set();
 
   items1.forEach((i) => set.add(i[0]));
+
   items2.forEach((i) => set.add(i[0]));
 
   const allItems = [...items1, ...items2];
