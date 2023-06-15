@@ -34,6 +34,8 @@ const i1 = [
 const i2 = [
   [3, 1],
   [1, 5],
+  [3, 1],
+  [1, 5],
 ];
 
 console.log(mergeSimilarItems(i1, i2));
