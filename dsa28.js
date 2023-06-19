@@ -4,7 +4,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-const smallerNumbersThanCurrent = function (nums) {
+const smallerNumbersThanCurrent = (nums) => {
   if (nums.length < 2 || nums.length > 500) {
     return [];
   }
