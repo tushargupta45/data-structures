@@ -9,9 +9,7 @@ const smallerNumbersThanCurrent = (nums) => {
     return [];
   }
   const initialNums = [...nums];
-
   nums.sort((a, b) => a - b);
-
   return initialNums.map((num) => {
     if (num >= 0 && num <= 100) {
       return nums.findIndex((n) => n === num);
