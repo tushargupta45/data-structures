@@ -9,6 +9,7 @@ const smallerNumbersThanCurrent = (nums) => {
     return [];
   }
   const initialNums = [...nums];
+
   nums.sort((a, b) => a - b);
 
   return initialNums.map((num) => {
