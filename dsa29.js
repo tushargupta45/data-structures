@@ -16,3 +16,21 @@ var maximumUnits = function (boxTypes, truckSize) {
   }
   return units;
 };
+
+console.log(
+  maximumUnits(
+    [
+      [1, 3],
+      [5, 5],
+      [2, 5],
+      [4, 2],
+      [4, 1],
+      [3, 1],
+      [2, 2],
+      [1, 3],
+      [2, 5],
+      [3, 2],
+    ],
+    35
+  )
+);
