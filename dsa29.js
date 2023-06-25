@@ -5,7 +5,7 @@
  * @param {number} truckSize
  * @return {number}
  */
-const maximumUnits = function (boxTypes, truckSize) {
+const maximumUnits = (boxTypes, truckSize) => {
   boxTypes.sort((a, b) => b[1] - a[1]);
   let units = 0;
   let currentIndex = 0;
