@@ -7,6 +7,7 @@
  */
 const maximumUnits = (boxTypes, truckSize) => {
   boxTypes.sort((a, b) => b[1] - a[1]);
+
   let units = 0;
   let currentIndex = 0;
   let iterations = 0;
