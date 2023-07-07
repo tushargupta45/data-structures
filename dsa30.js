@@ -3,7 +3,7 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-const intersection = function (nums1, nums2) {
+const intersection = (nums1, nums2) => {
   nums1.sort((a, b) => a - b);
   nums2.sort((a, b) => a - b);
   let index1 = 0;
