@@ -6,8 +6,10 @@
 const intersection = (nums1, nums2) => {
   nums1.sort((a, b) => a - b);
   nums2.sort((a, b) => a - b);
+
   let index1 = 0;
   let index2 = 0;
+
   const set = new Set();
   while (!isNaN(nums1[index1]) && !isNaN(nums2[index2])) {
     if (nums1[index1] > nums2[index2]) {
