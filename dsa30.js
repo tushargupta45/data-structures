@@ -11,6 +11,7 @@ const intersection = (nums1, nums2) => {
   let index2 = 0;
 
   const set = new Set();
+
   while (!isNaN(nums1[index1]) && !isNaN(nums2[index2])) {
     if (nums1[index1] > nums2[index2]) {
       index2++;
@@ -18,6 +19,7 @@ const intersection = (nums1, nums2) => {
       index1++;
     } else {
       set.add(nums1[index1]);
+
       index1++;
       index2++;
     }
