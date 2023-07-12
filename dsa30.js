@@ -27,4 +27,4 @@ const intersection = (nums1, nums2) => {
   return Array.from(set);
 };
 
-console.log(intersection([0, 5, 8, 7, 2, 9, 7, 5], [1, 4, 8, 9]));
+console.log(intersection([0, 5, 8, 7, 2, 5], [1, 4, 8, 9]));
