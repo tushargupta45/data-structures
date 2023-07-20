@@ -1,3 +1,10 @@
+//https://leetcode.com/problems/find-the-difference/
+
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {character}
+ */
 var findTheDifference = function (s, t) {
   const tArr = t.split("").sort();
   const elementIndex = s
