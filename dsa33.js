@@ -7,6 +7,7 @@
  */
 const findTheDifference = (s, t) => {
   const tArr = t.split("").sort();
+
   const elementIndex = s
     .split("")
     .sort()
