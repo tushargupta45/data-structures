@@ -12,6 +12,7 @@ const findTheDifference = (s, t) => {
     .split("")
     .sort()
     .findIndex((el, i) => el !== tArr[i]);
+
   if (elementIndex > -1) {
     return tArr[elementIndex];
   } else {
