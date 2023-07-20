@@ -10,4 +10,4 @@ const missingNumber = (nums) => {
   );
 };
 
-console.log(missingNumber([3, 0, 1]));
+console.log(missingNumber([3, 0, 9, 0, 41]));
