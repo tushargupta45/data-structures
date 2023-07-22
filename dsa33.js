@@ -11,7 +11,9 @@ const findTheDifference = (s, t) => {
   const elementIndex = s
     .split("")
     .sort()
-    .findIndex((el, i) => el !== tArr[i]);
+    .findIndex((el, i) => {
+      return el !== tArr[i];
+    });
 
   if (elementIndex > -1) {
     return tArr[elementIndex];
