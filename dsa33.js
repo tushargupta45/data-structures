@@ -21,4 +21,5 @@ const findTheDifference = (s, t) => {
     return tArr[tArr.length - 1];
   }
 };
+
 console.log(findTheDifference("abcsrfrd", "abcde"));
