@@ -1,3 +1,9 @@
+//https://leetcode.com/problems/largest-number-at-least-twice-of-others
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
 var dominantIndex = function (nums) {
   const max = Math.max(...nums);
   let count = 0;
