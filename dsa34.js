@@ -6,7 +6,6 @@
  */
 var dominantIndex = function (nums) {
   const max = Math.max(...nums);
-
   let count = 0;
 
   nums.forEach((num) => {
