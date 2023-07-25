@@ -12,3 +12,6 @@ var dominantIndex = function (nums) {
     return -1;
   }
 };
+
+const n = [3, 6, 1, 0];
+console.log(dominantIndex(n));
