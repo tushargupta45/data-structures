@@ -12,3 +12,6 @@ var maxSubsequence = function (nums, k) {
   dataIndexArr.sort((a, b) => a[1] - b[1]);
   return dataIndexArr.map((el) => el[0]);
 };
+
+const n = [-1, -2, 3, 4];
+console.log(maxSubsequence(n, 3));
