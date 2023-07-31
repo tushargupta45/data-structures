@@ -1,3 +1,9 @@
+//https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number[]}
+ */
 var maxSubsequence = function (nums, k) {
   let dataIndexArr = [];
   nums.forEach((num, i) => dataIndexArr.push([num, i]));
