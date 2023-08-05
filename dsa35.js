@@ -4,7 +4,7 @@
  * @param {number} k
  * @return {number[]}
  */
-var maxSubsequence = function (nums, k) {
+const maxSubsequence = function (nums, k) {
   let dataIndexArr = [];
   nums.forEach((num, i) => dataIndexArr.push([num, i]));
   dataIndexArr.sort((a, b) => b[0] - a[0]);
