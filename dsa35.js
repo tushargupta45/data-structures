@@ -10,7 +10,6 @@ const maxSubsequence = (nums, k) => {
 
   dataIndexArr.sort((a, b) => b[0] - a[0]);
   dataIndexArr = dataIndexArr.splice(0, k);
-
   dataIndexArr.sort((a, b) => a[1] - b[1]);
   return dataIndexArr.map((el) => el[0]);
 };
