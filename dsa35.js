@@ -15,5 +15,4 @@ const maxSubsequence = (nums, k) => {
 };
 
 const n = [-1, -2, 3, 4];
-
 console.log(maxSubsequence(n, 3));
